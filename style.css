@@ -1,0 +1,132 @@
+html,body {
+    width: 100%;
+    height: 100%;
+    background: 
+    linear-gradient(#030637, #3C0753, #363062 );
+}
+/* ----------------- HEADER ------------------- */
+header {
+    text-align: center;
+    margin: 15px;
+    padding: 0 0 15px 0;
+}
+
+header .tituloPrincipal {
+    font-size: 30px;
+    color: lightblue;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+}
+
+
+/* ------------------- MAIN ------------------*/
+
+.main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main > section {
+    flex: 1;
+    display: flex;
+}
+
+.textoEncriptado {
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+
+.campoTexto {
+    font-size: 25px;
+    font-style: oblique;
+    color: white;
+    border: 5px solid #0000;
+    display: block;
+    height: 300px;
+    padding: 16px;
+    border-radius: 5px;
+    background: 
+    linear-gradient(#535C91, #9290C3) padding-box,
+    linear-gradient(#09f, white) border-box;
+}
+
+.campoTexto::placeholder{
+    color: #B7C9F2;
+    
+}
+
+.btn {
+    font-weight: bold;
+    position: absolute;
+    top: 85%;
+    margin: 15px 15px;
+}
+
+.buttonEncriptar {
+    margin-right: 20px;
+    color:#afffff;
+    background: 
+    linear-gradient(#27005D, #0079FF)padding-box,
+    linear-gradient(#F6FA70, #9400FF ) border-box;
+    border: 2px solid #0000;
+    width: 130px;
+    font-size: 20px;
+    font-style: italic;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+
+.buttonDesencriptar {
+    margin-left: 20px;
+    color:#afffff;
+    background: 
+    linear-gradient(#27005D, #0079FF)padding-box,
+    linear-gradient(#F6FA70, #9400FF ) border-box;
+    border: 2px solid #0000;
+    width: 130px;
+    font-size: 20px;
+    font-style: italic;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.textoDesencriptado {
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+
+.mensaje {
+    font-size: 25px;
+    font-style: italic;
+    border: 5px solid #0000;
+    display: inline-block;
+    width: auto;
+    height: 300px;
+    padding: 16px;
+    border-radius: 5px;
+    background: 
+    linear-gradient(#535C91, #9290C3) padding-box,
+    linear-gradient(white, #15F5BA) border-box;
+    color: #B7C9F2;
+}
+
+.buttonCopy {
+    color:#afffff;
+    background: 
+    linear-gradient(#27005D, #0079FF)padding-box,
+    linear-gradient(#F6FA70, #9400FF ) border-box;
+    border: 2px solid #0000;
+    width: 130px;
+    font-size: 20px;
+    font-style: italic;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 15px;
+}
+/* ---------------------- FOOTER ----------------------- */

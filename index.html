@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto Alura</title>
+    <link rel="stylesheet" href="/reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+
+        <img src="/imagenes/hacker.png" alt="Logo Encriptador" width="80px">
+        <h1 class="tituloPrincipal">Encriptador de Texto Alura</h1>
+        <img src="imagenes/hacker (1).png" alt="" width="100px">
+    </header>
+
+    <main class="main">
+
+        <section class="textoEncriptado">
+            <textarea  class="campoTexto" id="textoEncriptado" placeholder="Texto a Encriptar"></textarea>
+
+            <div class="btn">
+                <button class="buttonEncriptar" onclick="btnEncriptar();">Encriptar</button>
+
+                <button class="buttonDesencriptar" onclick="btnDesencriptar();">Desencriptar</button>
+
+            </div>   
+        </section>
+
+        <section class="textoDesencriptado">
+            <textarea id="campoMensaje" class="mensaje">
+            </textarea>
+            
+            <div class="btn">
+                <button class="buttonCopy" id="btnCopy">Copy</button>
+            </div>
+            
+        </section>
+    </main>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
