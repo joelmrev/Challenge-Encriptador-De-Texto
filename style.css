@@ -17,6 +17,16 @@ header .tituloPrincipal {
     display: inline-block;
     padding: 10px;
     text-align: center;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.logoIzq {
+    filter: drop-shadow(10px 7px 10px red);
+}
+
+.logoDer {
+    filter: drop-shadow(10px 7px 10px lightblue);
 }
 
 
@@ -62,6 +72,7 @@ header .tituloPrincipal {
     position: absolute;
     top: 85%;
     margin: 15px 15px;
+    
 }
 
 .buttonEncriptar {
@@ -94,6 +105,7 @@ header .tituloPrincipal {
     padding: 10px;
     border-radius: 15px;
 }
+
 
 .textoDesencriptado {
     display: flex;
@@ -128,5 +140,21 @@ header .tituloPrincipal {
     cursor: pointer;
     padding: 10px;
     border-radius: 15px;
+    transition: 5s background;
 }
+
+.buttonCopy:hover {
+    color:#0F6292;
+    background: 
+    linear-gradient(#BFEA7C, #9F70FD)padding-box,
+    linear-gradient(#FF78F0, #16FF00 ) border-box;
+    border: 2px solid #0000;
+    width: 130px;
+    font-size: 20px;
+    font-style: italic;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 15px;
+}
+
 /* ---------------------- FOOTER ----------------------- */

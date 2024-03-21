@@ -50,16 +50,18 @@ function desencriptar (fraseDesencriptada) {
 }
 
 
-let texto = document.getElementById('campoMensaje').innerHTML;
+function copiarTexto() {
+    var copyText = document.getElementById('campoMensaje');
 
-const btnCopy = async () => {
-  try {
-    await navigator.clipboard.writeText(texto);
-    console.log('Contenido copiado al portapapeles');
-  } catch (err) {
-    console.error('Error al copiar: ', err);
-  }
+    copyText.select();
+    navigator.clipboard.writeText(copyText.value);
+
+    alert('Texto Copiado: ' + copyText.value);
 }
+
+
+
+
+
 btnEncriptar();
 btnDesencriptar();
-btnCopy();
